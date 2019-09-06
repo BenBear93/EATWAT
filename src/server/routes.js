@@ -1,8 +1,8 @@
 module.exports = (app, db) => {
 
-  const pokemon = require('./controllers/pokemon')(db);
+  const food = require('./controllers/food')(db);
+  console.log("im inside route")
+  app.get('/food', food.getAll);
+  app.get('/action', food.getAllAction);
 
-  app.get('/pokemon/:id', pokemon.get);
-
-  app.get('/api/pokemon/:id', pokemon.apiget);
 };

@@ -1,5 +1,5 @@
 const pg = require('pg');
-const pokemon = require('./models/pokemon');
+const food = require('./models/food');
 const url = require('url');
 
 var configs;
@@ -20,9 +20,9 @@ if( process.env.DATABASE_URL ){
 
 }else{
   configs = {
-    user: 'akira',
+    user: 'ben',
     host: '127.0.0.1',
-    database: 'testdb',
+    database: 'proj4',
     port: 5432
   };
 }
@@ -38,7 +38,7 @@ module.exports = {
   /*
    * ADD APP MODELS HERE
    */
-  pokemon: pokemon(pool),
+  food: food(pool),
 
   //make queries directly from here
   queryInterface: (text, params, callback) => {
