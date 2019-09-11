@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './style.scss';
-import Play1 from '../play/play1';
-import Play2 from '../play/play2';
-import Play3 from '../play/play3';
-import Play4 from '../play/play4';
-import Action1 from '../action/action1';
-import Action2 from '../action/action2';
-import Action3 from '../action/action3';
-import Action4 from '../action/action4';
+import Play1 from '../Play/play1.jsx';
+import Play2 from '../Play/play2.jsx';
+import Play3 from '../Play/play3.jsx';
+import Play4 from '../Play/play4.jsx';
+import Action1 from '../Action/action1.jsx';
+import Action2 from '../Action/action2.jsx';
+import Action3 from '../Action/action3.jsx';
+import Action4 from '../Action/action4.jsx';
 
 class Game extends React.Component {
     constructor() {

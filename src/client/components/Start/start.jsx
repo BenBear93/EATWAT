@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.scss';
-import Game from '../game/game';
+import Game from '../Game/game.jsx';
 
 class Start extends React.Component {
     constructor() {
