@@ -1,13 +1,14 @@
 .container{
 	position: relative;
-	width: 375px;
-	height: 812px;
+	width: 414px;
+	height: 896px;
 	padding: 0px;
+	margin:0 auto;
 }
 
 .background {
-	width: 375px;
-	height: 812px;
+	width: 414px;
+	height: 896px;
 }
 
 .centered {
@@ -22,7 +23,7 @@
 .icon {
 	position: absolute;
 	top: 54%;
-	left: 22%;
+	left: 25%;
 	width: 200px;
 	height: 200px;
 	animation: shake 1s;
@@ -54,7 +55,7 @@
 .plate{
 	position: absolute;
 	top: 45%;
-	left: 3%;
+	left: 8%;
 	width: 350px;
 	height: 300px;
 }

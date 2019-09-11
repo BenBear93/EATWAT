@@ -1,0 +1,47 @@
+.container{
+	position: relative;
+	width: 414px;
+	height: 896px;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+
+.background {
+	width: 414px;
+	height: 896px;
+}
+
+.centered {
+	position: absolute;
+  top: 14%;
+  font-family: 'Cairo', sans-serif;
+  color: #00CED1;
+  font-size: 110px;
+  text-align: center;
+}
+
+.instruction{
+	position: absolute;
+  top: 14%;
+  font-family: 'Cairo', sans-serif;
+  color: #00CED1;
+  font-size: 80px;
+  text-align: center
+}
+
+.icon{
+	position: absolute;
+	top: 45%;
+	left: 3%;
+	width: 350px;
+	height: 300px;
+}
+
+.eat{
+	position: absolute;
+	top: 45%;
+	left: 26%;
+	width: 200px;
+	height: 200px;
+}
