@@ -40,13 +40,13 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           fallback: {
             loader: 'style-loader',
-            options: {sourceMap: IS_DEV}
+            // options: {sourceMap: IS_DEV}
           },
           use: [
             {
               loader: 'css-loader',
               options: {
-                localIdentName: IS_DEV ? '[path]-[name]_[local]' : '[name]_[local]_[hash:5]', // [hash:base64]
+                // localIdentName: IS_DEV ? '[path]-[name]_[local]' : '[name]_[local]_[hash:5]', // [hash:base64]
                 modules: true,
                 sourceMap: IS_DEV
               }
