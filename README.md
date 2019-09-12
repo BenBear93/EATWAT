@@ -1,54 +1,22 @@
-React boilerplate with ES2015, Express.js, and Webpack
+EATWAT? readme
 
 ## Technologies
-
-- React (v16)
-- Express.js (v4) as production and development server
-- Webpack 4 (production and development configurations)
-- SCSS support (+ sanitize.css included)
-- ES2015+
-
-## Features
-- preconfigured eslint and Prettier code formatter
-- React Hot Loader
-- Linux/MacOS/Windows
-
-## Usage
-
-### Make sure you have nodemon installed globally
-```
-npm install -g nodemon
-```
-
-### Installation
-```bash
-git clone https://github.com/wdi-sg/react-express-webpack.git
-cd react-express-webpack
-npm install
+- bootstrap: for styling of the app
+- React: Use to create components and create interactive elements with the inclusion of AJAX calls
+- Express: to set up the app
 
 
-# remove boilerplate git references
-rm ./.git
-```
+## Approach
+- Brainstorming of idea, sketching and planning of idea, wireframe design for layout and looks of the app, planning of required logic, sequence and data flow. 
 
-### Scripts
-```bash
-# run development mode
-npm run dev
+## Installation
+- npm install, bootstrap install
 
-# run production mode
-npm run build
-npm start
+## User Stories
+- For gathering over meals, to induce fun and laughter while eating. 
 
-# run prettier
-npm run prettier
-
-# run lint
-npm run lint
-
-# run on a different port
-HTTP_PORT=3001 npm run dev
-```
+### Hurdles/Problems
+- Game logic and balancing of card games.
 
 ## License
 MIT License. Free use and change.
